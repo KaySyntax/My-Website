@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opoku-Temeng Nana Kofi</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #ffffff;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo a {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        header ul li {
+            display: inline;
+        }
+
+        header ul li a {
+            color: #fff;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.6s;
+        }
+
+        header ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            background: url('hero-bg.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 5px solid #fff;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero .btn {
+            padding: 1rem 2rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .hero .btn:hover {
+            background-color: #575757;
+        }
+
+        /* About Section Styles */
+        .about {
+            padding: 5rem 0;
+            background-color: #fff;
+        }
+
+        .about h1, .about h2 {
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-top: 2rem;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 1rem 0;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer .social-icons {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        footer .social-icons li {
+            display: inline;
+        }
+
+        footer .social-icons li a {
+            color: #fff;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        footer .social-icons li a:hover {
+            color: #575757;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Opoku-Temeng Nana Kofi</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <!-- Ensure 'profile.jpg' is in the same directory as your HTML files -->
+                <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+                <h1>Hello, I'm Opoku-Temeng</h1>
+                <p>Welcome to my website! I'm a Computer Engineer, a passionate tech enthusiast, aspiring software developer with expertise in web development, AI, and machine learning.</p>
+                <a href="about.html" class="btn">Learn More About Me</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 KaySyntax</p>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+         
